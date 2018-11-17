@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Crystal Collectors</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <style></style>
+</head>
+<body>
+    <div class="page-header">
+        <h1><strong>Crystal Collectors!!</strong></h1>
+      </div>
+      <div class="card">
+        <div class="card-body">
+         <p>*You will be given a random number at the start of the game. <br>
+            *There are four crystals below, by clicking on a crystal you will 
+            add a specific amount of points to you total score.<br>
+            *You win the game by matching your total score to the random 
+            number.<br>
+            *The value of each crystal is hidden from you until you click on it.<br>
+            *Each time when the game starts, the game will change the value of each
+            crystal.</p>
+</div>
+
+    </div>
+    <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-3">
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6 panel panel-default panel-body" id="gameRandomBox">
+                    <span id="num2Guess"> </span>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-3">
+               
+            </div>
+        </div> <!-- End of Second Row -->
+
+        <!-- Third Row for the Gem images  -->
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-3">
+            </div>
+            <div class="col-md-6 col-sm-6 cos-xs-6">
+                <div class="row"> 
+                    <div class="col-md-3 col-xs-3 col-xm-3 leftJustify">
+                        <img class="img-responsive thumbnail myThumbnail gemstone" id="bluecryst" value="bluecryst" src="assets\Images\New folder\rockcrys.png" alt="bluecryst">
+                      </div>
+                      <div class="col-md-3 col-xs-3 col-xm-3">
+                            <img class="img-responsive thumbnail myThumbnail gemstone" id="diamond" value="diamond" src="assets\Images\New folder\bluesquarecrys.jpg" alt="diamond">
+                      </div>
+                     <div class="col-md-3 col-xs-3 col-xm-3">
+                            <img class="img-responsive thumbnail myThumbnail gemstone" id="tear" value="tear" src="assets\Images\New folder\clearcrys.jpg" alt="tear">
+                      </div>
+                      <div class="col-md-3 col-xs-3 col-xm-3">
+                            <img class="img-responsive thumbnail myThumbnail gemstone" id="circle" value="circle" src="assets\Images\New folder\bluecrys.jpg" alt="circle">
+                      </div>
+                  </div>
+            </div>
+        </div> 
+
+        <div class="row">
+                <div class="col-md-12">
+                <div class="panel" id= "yourtotalscore">
+                        <span class="panel-title statsNum">Your Total Score Is: </span>
+                  </div>
+                  <div class="col-md-12">
+                  <div class="panel">
+                        <span class="statsNum" id="userScore"> </span>
+                  </div>
+                 
+                       
+
+            </div>
+            
+
+        </div> <!-- End of Fourth Row -->
+        
+    </div> <!-- End container -->
+    
+
+    <footer> <div class="row"> <!-- First sub row -->
+        <div class="col-md-12" id="winsBox">
+            <span class="statsNum" id="numWins"> </span>
+        <div class="col-md-12">
+            <span class="statsNum" id="numLosses"> </span>
+        </div>
+    </div>
+
+
+    </footer>
+             
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+  <!-- Bootstrap JavaScript CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Crystals Game JavaScript -->
+  <script src="assets/javascript/game.js"></script>
+</body>
+</html>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

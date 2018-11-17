@@ -1,0 +1,65 @@
+body {
+background-image: url("https://i.pinimg.com/originals/08/fa/02/08fa0275674fee050c47e3b1abd86b6b.jpg");
+}
+.page-header {color:white;
+           text-align: center;
+            background-color: gray;
+            padding: 20px;
+            margin-top: -30px;
+        
+}
+
+.card { color: white;
+        text-align: center;
+        margin-top: -17px;
+}
+
+.statsBox {
+	height: 50px;
+    background-color: #ccfffc;
+    text-align: center;
+  }
+  
+  .statsNum {
+	text-align: center;
+    color: blue;
+    text-align: center;
+    
+
+  }
+  
+  
+  
+  
+  #gameRandomBox {
+	background-color: grey;
+    height: 60px;
+    text-align: center;
+  
+  }
+  
+  #num2Guess {
+	margin-top: 20px;
+	margin-bottom: 100px;
+	margin-left: 20px;
+	line-height: 50px;
+	color: blue;
+	font-size: 40px;
+	font-weight: 700;
+  }
+  
+  #winsBox {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.panel {text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -10px
+}
+
+.footer {text-align: center;}
+
