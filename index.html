@@ -13,11 +13,76 @@
     <style></style>
   </head>
   <body>
-      <h1><strong>Do you really believe you are the biggest panther fan? <br>
-    Well... You should know the anwser to these relative easy questions.</strong></h1>
-    </div>
+    <!-- Start of the game -->
+		<div id = start_container>
+			<!-- Static Game Logo -->
+			<h1 class = "logo"><strong
+        >Do you really believe you are the biggest panther fan? <br />
+        Well... You should know the anwser to these relative easy
+        questions.</strong</h1>
 
-    <!-- jQuery CDN -->
+		<button id = start_button>Start</button>
+		</div>
+  <!-- During Gameplay Container -->
+  <div id = mid_game_container>
+  <!-- Static Game Logo -->
+  <h1 class = "logo">Carolina Panther Trivia</h1>
+
+  <!-- Game Timer -->
+  <h1 id = "timer_line">Time Remaining: <span id = "timer_number">60 Seconds</span></h1>
+  <!-- Game Questions -->
+  
+  <h1>1. The Carolina Panthers Inaugural season was in what year?</h1><!--1995-->
+  <input type="radio" name="q1" value="1998">1998 
+  <input type="radio" name="q1" value="1995">1995 
+  <input type="radio" name="q1" value="2001">2001
+  <input type="radio" name="q1" value="2005">2005
+  
+  <h1>2. In the 2011 draft what overall pick was Cam Newton?</h1>
+  <input type="radio" name="q1" value="#3">#3
+  <input type="radio" name="q1" value="#5">#5
+  <input type="radio" name="q1" value="12">#12
+  <input type="radio" name="q1" value="#1">#1
+  
+  <h1>3. Who was the Panthers first round draft pick in 2018?</h1>
+  <input type="radio" name="q1" value="DJ Moore">DJ Moore
+  <input type="radio" name="q1" value="Antione Spicer">Antione Spicer
+  <input type="radio" name="q1" value="Curtis Samuel">Curtis Samuel
+  <input type="radio" name="q1" value="Calvin Ridley">Calvin Ridley
+
+  <h1>4. How many acl tears has Thomas davis come back from?</h1>
+  <input type="radio" name="q1" value="2">2
+  <input type="radio" name="q1" value="5">5
+  <input type="radio" name="q1" value="1">1
+  <input type="radio" name="q1" value="3">3
+
+  <h1>5. Who bought the Carolina Panthers in 2018 for 2.2 billion dollars?</h1>
+  <input type="radio" name="q1" value="Sean Combs">Sean Combs
+  <input type="radio" name="q1" value="Steph Curry">Steph Curry
+  <input type="radio" name="q1" value="Shawn Carter">Shawn Carter
+  <input type="radio" name="q1" value="David Tepper">David Tepper
+
+  <br>
+
+
+			<button id = done_button>Done!</button>
+
+    </div>
+    
+    <!-- End of the game -->
+		<div id = end_container>
+			<!-- Static Game Logo -->
+      <h1 class = "logo">Carolina Panthers Trivia</h1>
+      
+      <h1 id = "done">All Done!</h1>
+			<br>
+
+			<h1>Correct Answers: <span id = "correct_answers">0</span></h1>
+			<h1>Incorrect Answers: <span id = wrong_answers>0</span></h1>
+			<h1>Unanswered: <span id = "unanswered">0</span></h1>
+		</div>
+			
+ <!-- jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- Bootstrap JavaScript CDN -->
