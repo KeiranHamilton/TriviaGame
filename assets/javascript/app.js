@@ -9,8 +9,8 @@ var wrongCount = 0;
 var unansweredCount = 0;
 
 // Game functions and operations
-$(document).ready(function() {
-  // TimeOut page after 1 minute
+$(document).ready(function () {
+  // TimeOut page after 1 minute 60seconds)
   //
 
   // hide my quiz page and result page
@@ -20,7 +20,7 @@ $(document).ready(function() {
   // Set Scroll position
   window.scrollTo(0, 500);
 
-  $("#start_button").on("click", function() {
+  $("#start_button").on("click", function () {
     // Hide the start box
     $("#start_container").hide();
 
@@ -40,7 +40,7 @@ $(document).ready(function() {
     $("#timer_number").html(count + " Seconds");
 
     // User finishes before time is up and clicks done
-    $("#done_button").on("click", function() {
+    $("#done_button").on("click", function () {
       count = 0;
       return;
     });
@@ -73,7 +73,7 @@ $(document).ready(function() {
     if (Q1 == undefined) {
       unansweredCount++;
     } else if (Q1 == "1995") {
-      correctCount++;
+      correctCount += 10;
     } else {
       wrongCount++;
     }
@@ -118,7 +118,7 @@ $(document).ready(function() {
     // Show the completed Score Div
     $("#end_container").show();
 
-    // Set Scroll position so it looks good
+    // auto Scroll for page
     window.scrollTo(0, 550);
   }
 });
